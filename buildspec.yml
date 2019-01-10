@@ -2,7 +2,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo install phase 
+      - javac ready.java
+      - java
   pre_build:
     commands:
       - echo install
@@ -12,5 +13,4 @@ phases:
       - echo testci
   post_build:
     commands:
-      - javac ready.java
-      - java sum
+      - echo name 
