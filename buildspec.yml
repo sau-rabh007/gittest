@@ -4,6 +4,8 @@ phases:
   install:
     commands:
       - which java 
+      - javac ready.java
+      - java sum 
   pre_build:
     commands:
       - echo install
