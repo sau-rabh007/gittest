@@ -3,8 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - javac ready.java
-      - java
+      - echo name
   pre_build:
     commands:
       - echo install
